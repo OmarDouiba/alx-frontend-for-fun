@@ -532,6 +532,12 @@ ul.row {
 
 /*** 4. CARD ***/
 
+/* Section SERVICES ============================= */
+
+.section-services .row {
+  flex-wrap: wrap;
+}
+
 /* Card (all styles)
       ============================= */
 

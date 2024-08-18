@@ -1,0 +1,14 @@
+/* nested_deeper */
+$font-size-sm: 12px;
+$font-size-md: 14px;
+$font-size-lg: 16px;
+
+body {
+  font-size: $font-size-md;
+  h1 {
+    font-size: $font-size-lg;
+    &.smaller {
+      font-size: $font-size-sm;
+    }
+  }
+}

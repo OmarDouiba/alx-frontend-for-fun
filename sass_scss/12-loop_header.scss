@@ -1,0 +1,8 @@
+/* loop_header */
+$header-list: (1, 2, 3, 4, 5);
+
+@each $num in $header-list {
+  H#{$num} {
+    font-size: #{$num}px;
+  }
+}
